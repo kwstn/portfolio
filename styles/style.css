@@ -5,7 +5,7 @@
     --clr-slate600: #475569;
     --clr-slate800: #1e293b;
     --clr-green: #4ade80;
-    --clr-emerald: #10b981;
+    --clr-emerald: #34d399;
 
 
     /*  green    rgb(74, 222, 128) */
@@ -64,9 +64,9 @@ button  {
 }
 
 a   {
-    color: var(--clr-green);
+    color: var(--clr-emerald);
 }
 
 strong  {
-    color: var(--clr-emerald);
+    color: var(--clr-green);
 }
