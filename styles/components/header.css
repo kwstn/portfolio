@@ -4,6 +4,8 @@
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    position: relative;
+    z-index: 9999;
 }
 
 .header__menu   {
@@ -11,7 +13,6 @@
 }
 
 .header__bars   {
-    display: block;
     color: var(--clr-light);
     width: var(--size2xl);
     height: var(--size2xl);
@@ -72,10 +73,6 @@
         height: var(--size-base);
     }
 
-    .header__resume {
-        font-size: var(--size-xs);
-    }
-
     .header__bars   {
         display: none;
     }
@@ -90,10 +87,6 @@
     .header__sun    {
         width: var(--size-xl);
         height: var(--size-xl);
-    }
-
-    .header__resume {
-        font-size: var(--size-sm);
     }
 }
 
